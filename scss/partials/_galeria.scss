@@ -1,0 +1,83 @@
+.img1 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 0.5s;
+}
+
+.img2 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 1s;
+}
+
+.img3 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 2s;
+}
+
+.img4 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 3s;
+}
+
+.img5 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 4s;
+}
+
+.img6 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 5s;
+}
+
+.img7 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation-delay: 6s;
+}
+
+.img8 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both; 
+    animation-delay: 7s;
+}
+
+.img9 {
+    -webkit-animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+    animation: tilt-in-right-1 .6s cubic-bezier(.25, .46, .45, .94) both;
+
+    animation-delay: 8s;
+}
+
+
+@-webkit-keyframes tilt-in-right-1 {
+    0% {
+        -webkit-transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+        transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+        transform: rotateX(0deg) translateX(0) skewX(0deg);
+        opacity: 1
+    }
+}
+
+@keyframes tilt-in-right-1 {
+    0% {
+        -webkit-transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+        transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+        transform: rotateX(0deg) translateX(0) skewX(0deg);
+        opacity: 1
+    }
+}

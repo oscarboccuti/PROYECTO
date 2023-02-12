@@ -1,0 +1,49 @@
+
+footer {
+        .container {
+            .section {
+
+                .facebook {
+                    background-color: $facebookColor;
+                }
+                
+                .twitter {
+                    background-color: $twitterColor;
+                 }
+                
+                .google {
+                    background-color: $googleColor;
+                }
+                
+                .instagram {
+                    background-color: $instagramColor;
+                }
+
+                .linkedin {
+                    background-color: $linkedinColor;
+                }
+
+                .github {
+                    background-color: $githubColor;
+                }
+
+                .twitch {
+                    background-color: $twitchColor;
+                }
+
+                a i:hover {
+                    transform: scale(1.5);
+                    transition: all 1s ease;
+                }
+            }
+        }
+}
+
+.textofooteruno {
+    background-color: $negro;
+    font-weight: 600;
+}
+
+.textofooterdos {
+    color: $secondaryColor;
+}
